@@ -91,7 +91,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-[88vh] flex items-center overflow-hidden pt-12 md:pt-0">
+      <section className="relative min-h-[88vh] flex items-center overflow-hidden pt-20 md:pt-24">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-on-surface/95 via-on-surface/80 to-on-surface/40 z-10"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-transparent to-transparent z-10"></div>
@@ -100,6 +100,7 @@ export default function Home() {
             alt="Car tyre repair service in Dubai"
             className="w-full h-full object-cover"
             src="/home-hero.webp"
+            fetchPriority="high"
           />
         </div>
         <div className="relative z-20 w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto py-xl">
@@ -199,6 +200,7 @@ export default function Home() {
                   alt={service.alt}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   src={service.img}
+                  loading="lazy"
                 />
               </div>
               <div className="p-6">
@@ -251,8 +253,9 @@ export default function Home() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 alt="Professional tyre technician working on a car in Dubai"
-                className="relative w-full rounded-xl shadow-2xl h-[450px] object-cover"
+                className="relative w-full rounded-xl shadow-2xl h-[260px] md:h-[450px] object-cover"
                 src="/about-technician.webp"
+                loading="lazy"
               />
             </div>
           </div>
@@ -336,6 +339,7 @@ export default function Home() {
                     className="w-12 h-12 rounded-full object-cover"
                     alt={t.name}
                     src={t.img}
+                    loading="lazy"
                   />
                   <div>
                     <p className="font-bold">{t.name}</p>

@@ -13,7 +13,7 @@ export default function ServicesPage() {
     <div className="services-page bg-background text-on-surface font-body-md antialiased overflow-x-hidden">
       <main>
         {/* Hero Section */}
-        <section className="relative min-h-[614px] flex items-center overflow-hidden">
+        <section className="relative min-h-[70vh] md:min-h-[614px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <div
               className="w-full h-full bg-cover bg-center"
@@ -23,7 +23,7 @@ export default function ServicesPage() {
             ></div>
             <div className="absolute inset-0 bg-gradient-to-r from-surface/90 to-surface/20"></div>
           </div>
-          <div className="relative z-10 w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto py-xl">
+          <div className="relative z-10 w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto pt-20 md:pt-24 pb-xl">
             <div className="max-w-2xl space-y-md">
               <div className="inline-flex items-center gap-xs bg-primary/10 text-primary px-sm py-1 rounded-full font-label-md text-label-md uppercase tracking-wider">
                 <span className="material-symbols-outlined text-[18px]">verified</span>
@@ -94,9 +94,10 @@ export default function ServicesPage() {
               <div className="rounded-xl overflow-hidden shadow-sm border border-outline-variant/20 group">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-[240px] md:h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
                   alt="Tyre repair service in Dubai"
                   src="/service-tyre-repair.webp"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -122,6 +123,7 @@ export default function ServicesPage() {
                   className="w-full h-full object-cover"
                   alt="Tyre change service Dubai"
                   src="/service-tyre-change.webp"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -143,19 +145,21 @@ export default function ServicesPage() {
                   className="w-full h-full object-cover"
                   alt="New tyre replacement Dubai"
                   src="/service-new-tyre.webp"
+                  loading="lazy"
                 />
               </div>
             </div>
           </div>
 
           {/* 3. Battery Replacement (Wide Feature) */}
-          <div className="relative rounded-xl overflow-hidden bg-inverse-surface text-inverse-on-surface p-xl">
+          <div className="relative rounded-xl overflow-hidden bg-inverse-surface text-inverse-on-surface p-md md:p-xl">
             <div className="absolute inset-0 opacity-20">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="w-full h-full object-cover"
                 alt="Car battery replacement Dubai"
                 src="/service-battery.webp"
+                loading="lazy"
               />
             </div>
             <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-lg items-center">
@@ -196,9 +200,10 @@ export default function ServicesPage() {
             <div className="order-2 md:order-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                className="rounded-xl w-full h-[400px] object-cover shadow-sm"
+                className="rounded-xl w-full h-[240px] md:h-[400px] object-cover shadow-sm"
                 alt="Emergency tyre assistance Dubai"
                 src="/service-emergency.webp"
+                loading="lazy"
               />
             </div>
             <div className="order-1 md:order-2 space-y-md">
@@ -248,9 +253,10 @@ export default function ServicesPage() {
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                className="rounded-xl w-full h-[400px] object-cover shadow-sm"
+                className="rounded-xl w-full h-[240px] md:h-[400px] object-cover shadow-sm"
                 alt="Precision wheel balancing service Dubai"
                 src="/gallery-wheel-pro.webp"
+                loading="lazy"
               />
             </div>
           </div>
@@ -269,7 +275,7 @@ export default function ServicesPage() {
               ].map((item) => (
                 <div key={item.src} className="relative rounded-xl overflow-hidden aspect-video group">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={item.src} alt={item.alt} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <img src={item.src} alt={item.alt} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-sm">
                     <span className="text-white text-sm font-bold">{item.caption}</span>
                   </div>
