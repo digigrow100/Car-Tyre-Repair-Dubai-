@@ -143,35 +143,30 @@ export default function AboutPage() {
               </h2>
               <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-gutter">
-              <div className="relative rounded-3xl overflow-hidden aspect-[1.79] group">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  alt="Tyre change service Dubai"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  src="/about-team.webp"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-lg">
-                  <div className="text-white">
-                    <div className="font-bold text-lg">Mobile Tyre Service at Your Home</div>
-                    <div className="text-sm opacity-80">We come to you anywhere in Dubai</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+              {[
+                { src: "/about-team.webp",            alt: "Mobile tyre service at villa Dubai",           caption: "Mobile Service at Your Home",        sub: "We come to you anywhere in Dubai" },
+                { src: "/about-van.webp",             alt: "Luxury roadside tyre service Dubai",           caption: "24/7 Emergency Response",             sub: "Roadside assistance across Dubai" },
+                { src: "/gallery-tyre-cityscape.webp",alt: "Roadside tyre repair Dubai cityscape",         caption: "Tyre Repair on Dubai Roads",          sub: "Fast puncture fix at your location" },
+                { src: "/gallery-wheel-pro.webp",     alt: "Precision wheel service modern garage Dubai",  caption: "Precision Wheel Balancing",           sub: "Professional digital balancing equipment" },
+                { src: "/gallery-battery-skyline.webp",alt: "Roadside battery service Dubai skyline",      caption: "Battery Service with Dubai View",     sub: "Car battery replaced on-site" },
+                { src: "/gallery-recovery.webp",      alt: "Emergency tyre change recovery Dubai",         caption: "Emergency Recovery Service",          sub: "Back on the road in 30-60 minutes" },
+              ].map((item) => (
+                <div key={item.src} className="relative rounded-3xl overflow-hidden aspect-video group">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    alt={item.alt}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    src={item.src}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-md">
+                    <div className="text-white">
+                      <div className="font-bold">{item.caption}</div>
+                      <div className="text-sm opacity-80">{item.sub}</div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="relative rounded-3xl overflow-hidden aspect-[1.34] group">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  alt="Emergency tyre service Dubai road"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  src="/about-van.webp"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-lg">
-                  <div className="text-white">
-                    <div className="font-bold text-lg">24/7 Emergency Response</div>
-                    <div className="text-sm opacity-80">Roadside assistance anywhere in Dubai</div>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>

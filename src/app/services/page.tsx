@@ -191,7 +191,7 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          {/* 4. Emergency & Wheel Balancing */}
+          {/* 4. Emergency Assistance */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
             <div className="order-2 md:order-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -214,21 +214,67 @@ export default function ServicesPage() {
                   response team is available around the clock, 365 days a year. We aim to
                   reach you within 30-60 minutes anywhere in Dubai.
                 </p>
+                <ul className="space-y-xs font-body-md text-body-md text-on-surface mt-sm">
+                  <li className="flex items-center gap-sm"><span className="material-symbols-outlined text-primary">check_circle</span>Available 24/7, 365 days a year</li>
+                  <li className="flex items-center gap-sm"><span className="material-symbols-outlined text-primary">check_circle</span>30-60 minute response anywhere in Dubai</li>
+                  <li className="flex items-center gap-sm"><span className="material-symbols-outlined text-primary">check_circle</span>Highways, parking lots, residential areas</li>
+                </ul>
               </div>
-              <hr className="border-outline-variant" />
+            </div>
+          </div>
+
+          {/* 5. Wheel Balancing */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+            <div className="space-y-md">
               <div className="space-y-sm">
                 <div className="flex items-center gap-sm">
                   <div className="w-10 h-10 bg-primary/10 text-primary rounded-lg flex items-center justify-center">
                     <span className="material-symbols-outlined">balance</span>
                   </div>
-                  <h3 className="font-title-lg text-title-lg">Wheel Balancing</h3>
+                  <h3 className="font-title-lg text-title-lg">Precision Wheel Balancing</h3>
                 </div>
                 <p className="font-body-md text-body-md text-on-surface-variant">
-                  Vibration while driving? Our mobile wheel balancing service corrects imbalanced
-                  wheels at your location, improving ride comfort and extending tyre life on
-                  Dubai&apos;s high-speed roads.
+                  Vibration while driving? Our mobile wheel balancing service uses professional
+                  digital equipment to correct imbalanced wheels at your location, improving
+                  ride comfort and extending tyre life on Dubai&apos;s high-speed roads.
                 </p>
+                <ul className="space-y-xs font-body-md text-body-md text-on-surface mt-sm">
+                  <li className="flex items-center gap-sm"><span className="material-symbols-outlined text-primary">check_circle</span>Digital precision balancing equipment</li>
+                  <li className="flex items-center gap-sm"><span className="material-symbols-outlined text-primary">check_circle</span>All vehicle types and wheel sizes</li>
+                  <li className="flex items-center gap-sm"><span className="material-symbols-outlined text-primary">check_circle</span>Done at your home, office or roadside</li>
+                </ul>
               </div>
+            </div>
+            <div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                className="rounded-xl w-full h-[400px] object-cover shadow-sm"
+                alt="Precision wheel balancing service Dubai"
+                src="/gallery-wheel-pro.webp"
+              />
+            </div>
+          </div>
+
+          {/* Photo Gallery Row */}
+          <div>
+            <h2 className="font-headline-md text-headline-md-mobile md:text-headline-md text-center mb-lg">Our Work Across Dubai</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-sm">
+              {[
+                { src: "/gallery-tyre-cityscape.webp",   alt: "Tyre repair Dubai cityscape",           caption: "Tyre Repair · Dubai Cityscape" },
+                { src: "/gallery-battery-roadside.webp", alt: "Roadside battery service Dubai",        caption: "Battery Service · Roadside Dubai" },
+                { src: "/gallery-battery-skyline.webp",  alt: "Battery service with Dubai skyline",    caption: "Battery Replacement · Skyline View" },
+                { src: "/gallery-battery-replace.webp",  alt: "Car battery replacement Dubai",         caption: "On-Site Battery Replacement" },
+                { src: "/gallery-recovery.webp",         alt: "Emergency tyre recovery Dubai",         caption: "Emergency Recovery Service" },
+                { src: "/about-technician.webp",         alt: "Mobile tyre technician Dubai",          caption: "Expert Mobile Technicians" },
+              ].map((item) => (
+                <div key={item.src} className="relative rounded-xl overflow-hidden aspect-video group">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={item.src} alt={item.alt} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-sm">
+                    <span className="text-white text-sm font-bold">{item.caption}</span>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
