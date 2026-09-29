@@ -16,7 +16,7 @@ export default function FloatingContactButtons() {
         </span>
       </a>
       <a
-        className="w-14 h-14 bg-[#F59E0B] text-on-surface rounded-full shadow-2xl flex items-center justify-center"
+        className="w-14 h-14 bg-[#D97721] text-white rounded-full shadow-2xl flex items-center justify-center"
         href={`tel:${PHONE_RAW}`}
         aria-label="Call us"
       >

@@ -119,7 +119,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <a
-                className="bg-[#F59E0B] hover:bg-[#D97706] text-on-surface font-bold px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-[#F59E0B]/20"
+                className="bg-[#D97721] hover:bg-[#B5601A] text-white font-bold px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-[#D97721]/20"
                 href={`tel:${PHONE_RAW}`}
               >
                 <span className="material-symbols-outlined" data-weight="fill">
@@ -322,7 +322,7 @@ export default function Home() {
                 key={t.name}
                 className="bg-white p-8 rounded-lg shadow-sm border border-outline-variant/20 lift-hover"
               >
-                <div className="flex text-[#F59E0B] mb-4">
+                <div className="flex text-[#D97721] mb-4">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <span key={i} className="material-symbols-outlined" data-weight="fill">
                       star
@@ -372,7 +372,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              className="bg-[#F59E0B] hover:bg-[#D97706] text-on-surface font-bold px-12 py-5 rounded-lg flex items-center justify-center gap-2 transition-all hover:scale-105 shadow-xl"
+              className="bg-[#D97721] hover:bg-[#B5601A] text-white font-bold px-12 py-5 rounded-lg flex items-center justify-center gap-2 transition-all hover:scale-105 shadow-xl"
               href={`tel:${PHONE_RAW}`}
             >
               <span className="material-symbols-outlined text-[24px]">call</span>
