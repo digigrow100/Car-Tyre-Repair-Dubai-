@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const PHONE_RAW = "+971558664226";
@@ -39,9 +40,14 @@ export default function Navbar() {
     >
       <div className="flex justify-between items-center w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto h-16 md:h-20">
         <Link className="shrink-0" href="/">
-          <span className="font-display-lg text-xl font-extrabold text-primary">
-            Car Tyre Repair <span className="text-on-surface">Dubai</span>
-          </span>
+          <Image
+            src="/logo.webp"
+            alt="Car Tyre Repair Dubai"
+            width={220}
+            height={47}
+            priority
+            className="h-10 w-auto"
+          />
         </Link>
         <nav className="hidden lg:flex items-center gap-base">
           {navLinks.map((link) => {
