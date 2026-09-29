@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 
-const PHONE_RAW = "+971558664226";
-const PHONE = "+971 55 866 4226";
-const WA = "https://wa.me/971558664226";
+const PHONE_RAW = "+971552978485";
+const PHONE = "+971 55 297 8485";
+const WA = "https://wa.me/971552978485";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);

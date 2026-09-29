@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const PHONE = "+971 55 866 4226";
-const PHONE_RAW = "+971558664226";
-const WA = "https://wa.me/971558664226";
+const PHONE = "+971 55 297 8485";
+const PHONE_RAW = "+971552978485";
+const WA = "https://wa.me/971552978485";
 
 export default function Footer() {
   return (

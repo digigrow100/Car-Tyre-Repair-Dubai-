@@ -5,8 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-const PHONE_RAW = "+971558664226";
-const WA = "https://wa.me/971558664226";
+const PHONE_RAW = "+971552978485";
+const WA = "https://wa.me/971552978485";
 
 const navLinks = [
   { label: "Home", href: "/" },
