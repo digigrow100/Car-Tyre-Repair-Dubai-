@@ -142,7 +142,7 @@ export default function ContactPage() {
                   className="w-full h-full bg-cover bg-center grayscale contrast-125"
                   style={{
                     backgroundImage:
-                      "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAhvBx2lJKf0fnLUkyS8cL5PO4okMT-MQAgl_JBbQY6ry91GCBhODj3K2uzIKcV355wSb5iKhpqZ8UARPUI0g8jZnteZpXq3MG6XqcMjIHl-wuzNfWMSmwIccchH7f5yDsQgWyHspGmWIRb2oiPy_KlLvdegx8P5iiC3-xJqMtsP7-TlH9nN1s3rgiNiPTph5DLuwmbUL_aL67zLcu9HjmYLK50Z2xVQJ2vcbj0mS-OQOkKctpcL4hl-n2dDFXY7Sjmr-oFoGk4cFDt')",
+                      "url('/coverage-bg.webp')",
                   }}
                 ></div>
                 <div className="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
