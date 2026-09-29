@@ -149,7 +149,7 @@ export default function AboutPage() {
                 <img
                   alt="Tyre change service Dubai"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  src="https://lh3.googleusercontent.com/aida/AP1WRLtojx1mdVk0Nbiyjw1nGnvDkBUt0gY9FkaqhkNgllv-Q81FclO1_uEWyZ7f8nXh9zMsEA3nUFErnKFYK7SCcpKDIrKxmxRzigPEmAA92Z4E0fTGhn6av9i6qlqFaMRl15rzAn4SPGBZcWskmNWeDCYRDGN8wwiXSdftBn0hsT5jg6xEdBw4OwscZFGWZ7kiuJjVtZsuAoB_iPxWhDVpfGAse9JAtM7z55AIo7XWv-ccDu99aGX7VPLYlCzB"
+                  src="/about-team.webp"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-lg">
                   <div className="text-white">
@@ -163,7 +163,7 @@ export default function AboutPage() {
                 <img
                   alt="Emergency tyre service Dubai road"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  src="https://lh3.googleusercontent.com/aida/AP1WRLuWurUoJpPI4krsFMjiw02XXkxS8firSe33-nvDMpPD5RVl1cn5meQS0yFQmbRD-b3UTw6Ex0AHLzzaJ2ZQ7qsJagHDcOKJiAa-BmKzxdVeXUUSo6vXliQJOMqmIGI65ucWTYCuCRqed1cTz3jM7ZCbWtEUelDmBBkyzmlUvKaghqgmYl_jSnV6dZvyJDnqra8j6yb-49q7TpcGc9yW5pPrr9tC-hhxpHd6pp711vgSj-_Ewvb-Z0msNBTW"
+                  src="/about-van.webp"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-lg">
                   <div className="text-white">

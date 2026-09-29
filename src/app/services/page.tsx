@@ -18,7 +18,7 @@ export default function ServicesPage() {
             <div
               className="w-full h-full bg-cover bg-center"
               style={{
-                backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBpggqLtV8xQDVVnfBsUstbN1R7VU7v9_3ud-A10vhJBPEVQWDnntrW402E62Y8ZSkpRkQL7wIibXwZvbiOqjh1uoVyspLFkRzD4EL-AFon1ouG4s3SHcm4V66nOBwfihGWd__EFA3R4QQhTRL0k2R-uqX5-4ZfCNJdi9xZRpPYmo12P7AoZlc8JOLJ-Y2VEAU5SeUejsFipbfReCpChbKE_Z4oFg72ZFfRWhBccWKxOx33YDWVhOgVM97ED09Z24MdVgwnOEvFxHac')",
+                backgroundImage: "url('/services-hero.webp')",
               }}
             ></div>
             <div className="absolute inset-0 bg-gradient-to-r from-surface/90 to-surface/20"></div>
@@ -96,7 +96,7 @@ export default function ServicesPage() {
                 <img
                   className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
                   alt="Tyre repair service in Dubai"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkfZcLScZoCawso88iw4V1_b8Aw04DRSZWmHqzkMFbgvC7aZymZv5847wIqVshObcGCTBph8TgbrYmnDBHED8kPoyEef2CgMnsKL4HtJ736joceckXPCNxicin9fTGnprzhyvna56tXlz7LOmioEoNw7BxZHv07gQ1U2t19huF9TShdI-wP65MQUu9-Mkervu7818z5wsUsPw5_uqy5vOEYwmhfsDu6CXm8M1QGUtI_yS_63t2CaoNFy9xpF9la6WXjnLqeMwaNwsA"
+                  src="/service-tyre-repair.webp"
                 />
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function ServicesPage() {
                 <img
                   className="w-full h-full object-cover"
                   alt="Tyre change service Dubai"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTEmNkab1e_QTiRs6XuUc18SztoGOfOf9Tt9h8iWIeQr_76zclh6i8m25tjB6EybWYc2cEZMfBa_jIWE4rkZeQK9D8PVeURVcA0QIY3W_KMvPxVmSiaiyyRKYpvIqNZW4dHEifLEGaL4APq9gLhA8-hMlBeu-aSmCAxNi75-0QgvJOpaNxYm-ZPo4NQfTA0wVGndRzq55jEXC2jlLf8PhbF0Vj0t4p-fDZQZVHDUftP6i0912p5vKu1Noipnl_YKsyfdroVQURofqd"
+                  src="/service-tyre-change.webp"
                 />
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function ServicesPage() {
                 <img
                   className="w-full h-full object-cover"
                   alt="New tyre replacement Dubai"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJzkpKHmQ77BdU04bQ0K0VtZeVFLQGOveBtTKI4rkMvGN_nciMy_vaROZQ_l5gjReLl9i9-HiJ0XNkc2cFPGVEP-M3COfP2HITtA7xAwA1jhk4RaPI94E6ryMUtNg-dQ-F7GXXLqgbNPE0lnc5415oFvaXxlgGrmxTI76mzqDizDC4ncLSfPwWiqUi5hvDJYSrswSOxdYlvo_p4X49O0yOUgvCldaSF9Fa5z4qRtZPJvqhlQo6rWOplgXj1mMWuI67zXW_yPTb24la"
+                  src="/service-new-tyre.webp"
                 />
               </div>
             </div>
@@ -155,7 +155,7 @@ export default function ServicesPage() {
               <img
                 className="w-full h-full object-cover"
                 alt="Car battery replacement Dubai"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbQDgz7dqfUSWV_rS-9Q-abMEKPMNb0Agc4cwiHg6bp5rO8rXMfVk8vBguZYkEtDJhs-EFFX4by1vqS7VuavJGehGUtZS-OkBmBJhs4tGtyf9rbHGxVbMipDR-PaxyGMqZqaarBundUf2TBmvnUAkRzN01P1xW9NQ09VrTx63z9QU30ogzwtTYXqpq_9XTlmJqNnptztbluUCSbHRDw1FbfHEOwCqbxP89Aa6Ecawxwi_0ZKlrBDnAIpvezMDLIGZdPur3hL8T7h_2"
+                src="/service-battery.webp"
               />
             </div>
             <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-lg items-center">
@@ -198,7 +198,7 @@ export default function ServicesPage() {
               <img
                 className="rounded-xl w-full h-[400px] object-cover shadow-sm"
                 alt="Emergency tyre assistance Dubai"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2BEhMYADrw1hGR38ZSTm25_W6Aw8egTY2b0fmheZZaddJfkE0-WZW2U7X6QcBz46G9V70GA2nIyvfL1dYTjYXfDyRV6uaXUqkU6cSXbeAws4oITNReZ6Dbu-M8IVa0-xLJHiFlk2GVZJp_a9DPGmA_L_8hZL50fVZsDFuBGX4h_6GoInmyQFxGOhIuFy4MKFmBUKlf60BdRXmq-k6ub2zhTP_TzQzTsSFo9EXP_QXGyPNP4KnMX50dcJM7jOMShnZ4ZN0nPcHRwBR"
+                src="/service-emergency.webp"
               />
             </div>
             <div className="order-1 md:order-2 space-y-md">

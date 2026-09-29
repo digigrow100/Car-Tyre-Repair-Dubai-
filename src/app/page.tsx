@@ -10,42 +10,42 @@ const services = [
     icon: "tire_repair",
     title: "Tyre Repair Service",
     desc: "Professional puncture repair and tyre fixing at your location across Dubai — fast and reliable.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBeW0yP_njAETuoNUYxrjtT927-NPryUnBgJ58ldJgs5wnMpQvpfCVHgeDBE54hI9cpB0YjiFa4dd5u2pQ9iawADtWe07I6c4NasAt3mkF8e_6mLBL9Cvo_0Ad7GaLabSbJyOfSXp5Om7ZrxFmcFsLrkJ3JAdEiqtXcUk2InMSjhFEk7t-BzyovghapY2QkwE1xVcVQvY1RCzccksEamD2FY_b-NUUX8B3zHjsmHbEm2dXTiPa2i3lSEG34wf41IaCHLpLzBD1dinnu",
+    img: "/service-tyre-repair.webp",
     alt: "Tyre repair service in Dubai",
   },
   {
     icon: "build",
     title: "Tyre Change Service",
     desc: "Quick and expert tyre change at your doorstep — home, office, or roadside anywhere in Dubai.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDTEmNkab1e_QTiRs6XuUc18SztoGOfOf9Tt9h8iWIeQr_76zclh6i8m25tjB6EybWYc2cEZMfBa_jIWE4rkZeQK9D8PVeURVcA0QIY3W_KMvPxVmSiaiyyRKYpvIqNZW4dHEifLEGaL4APq9gLhA8-hMlBeu-aSmCAxNi75-0QgvJOpaNxYm-ZPo4NQfTA0wVGndRzq55jEXC2jlLf8PhbF0Vj0t4p-fDZQZVHDUftP6i0912p5vKu1Noipnl_YKsyfdroVQURofqd",
+    img: "/service-tyre-change.webp",
     alt: "Tyre change service Dubai",
   },
   {
     icon: "inventory",
     title: "New Tyre Replacement",
     desc: "Wide selection of premium, mid-range, and budget tyres for all vehicles. We bring them to you.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJzkpKHmQ77BdU04bQ0K0VtZeVFLQGOveBtTKI4rkMvGN_nciMy_vaROZQ_l5gjReLl9i9-HiJ0XNkc2cFPGVEP-M3COfP2HITtA7xAwA1jhk4RaPI94E6ryMUtNg-dQ-F7GXXLqgbNPE0lnc5415oFvaXxlgGrmxTI76mzqDizDC4ncLSfPwWiqUi5hvDJYSrswSOxdYlvo_p4X49O0yOUgvCldaSF9Fa5z4qRtZPJvqhlQo6rWOplgXj1mMWuI67zXW_yPTb24la",
+    img: "/service-new-tyre.webp",
     alt: "New tyre replacement Dubai",
   },
   {
     icon: "battery_charging_full",
     title: "Battery Replacement",
     desc: "Fast car battery replacement service across Dubai. We test, supply, and install at your location.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCQ4gHqfyHyCX80RKOjsnCMgBt2h0mwx0bghLvzQt8SKfCWASCHIUR7vIbg-Bk82azxFSmNd-xjQPA1XeKu11WtuzE-tWicOGNDWahqNpAoB9kiHg14CHqYovD1IaVC6uBswy1UH6M3yrEXjQXvN7BIrtyqCUXKFRPwTneUtEs45-drBlI3jfs4bkxXbcXpBsuIFYUIhPJFp3Kv6NKTfKNxoCOE9GQ5uSqCUyHS2QTqXYT1QQQsv4mV2QGzWxzpeOz5pQ-2hMvwxu_d",
+    img: "/service-battery.webp",
     alt: "Battery replacement Dubai",
   },
   {
     icon: "emergency_home",
     title: "Emergency Assistance",
     desc: "Stranded in Dubai? Our rapid response team is available 24/7 to get you back on the road fast.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2BEhMYADrw1hGR38ZSTm25_W6Aw8egTY2b0fmheZZaddJfkE0-WZW2U7X6QcBz46G9V70GA2nIyvfL1dYTjYXfDyRV6uaXUqkU6cSXbeAws4oITNReZ6Dbu-M8IVa0-xLJHiFlk2GVZJp_a9DPGmA_L_8hZL50fVZsDFuBGX4h_6GoInmyQFxGOhIuFy4MKFmBUKlf60BdRXmq-k6ub2zhTP_TzQzTsSFo9EXP_QXGyPNP4KnMX50dcJM7jOMShnZ4ZN0nPcHRwBR",
+    img: "/service-emergency.webp",
     alt: "Emergency roadside assistance Dubai",
   },
   {
     icon: "balance",
     title: "Wheel Balancing",
     desc: "Precision digital wheel balancing for a smoother ride and extended tyre life across all Dubai roads.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBWp2Ql7LwyAVOghHPSvfquqeezTu8fp0mf_ajNYe4dO3MCRQCP71PtfjGs5y2igj0WbOkk3WjX8oWLbhh-6PBODDnb9X4jiPY2x7u-BAhlWMVgp0NtxeYdAQ_exI52vYxYBairzT3ePRfT6U4B05OOhzhpZNNRbjPPzpvorRym-q6hsZdMfNxnJ9fCdZqd9FqjvwwMDCWPYney23kBLNgFiDjZ3-sdYUT3JsQteyUy06_LHJGq6RkKYE-Ii967Jp_3r1FQ1RDs4oIC",
+    img: "/service-wheel-balancing.webp",
     alt: "Wheel balancing Dubai",
   },
 ];
@@ -71,19 +71,19 @@ const testimonials = [
     quote:
       "Incredible service! I had a flat tyre on Sheikh Zayed Road and they arrived in 30 minutes. Very professional and affordable.",
     name: "Ahmed Al Mansouri",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAA6h7WTujbQsdVx0lc1a6yaB3e06Ujmz6_ik8y_jqYTWO0KvFtphdpgMZ6-P_py9_Jw7NEpyvyfzTCdj3M-5puOeEKY9iQobxPa4l4-4kgxnZhV6bgkAXvVMv0cNrNOjOD5Pq60QGq6snfiAr-cuX1GYBldK7Cw0UdZYgo5BNChdgv326soJL3VNhZutTHct_5qocEm_ANzXi_Dc_QK5JWt_AHr8uofZhQ8bD5YOg_uF8gluEeIVIKNQPDdYWjGB1dXefZ_alJNYQN",
+    img: "/avatar-ahmed.webp",
   },
   {
     quote:
       "My car battery died in the parking lot at Dubai Mall. They came within 45 minutes and replaced it on the spot. Saved my day!",
     name: "Sarah Johnson",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBKPvwIm7ee9n63Ac10Xsa87535ycrcd7mzM5Mvnwvq0sPq6gIQ9tJuaRMjFSseA24CPS968-6wJi_VDEdRxsULcBCwzrncPVHf_yOxEuTixAf86EIKHHqYsUFlwenXKrUeGEc5rWcB-8yeQajf7FifnfAVyESzhjpbKsEv6t8EdsMvhzzJOJfQ8FteYYVx-stJyvpZomv2aCg63JviJM57F5CI1X5CUxEznjfHwkDdxGr9gdLl-IxhiIVtncCn8TZnyZRDAGaSLaok",
+    img: "/avatar-sarah.webp",
   },
   {
     quote:
       "Best tyre change service in Dubai! Changed all four tyres at my villa while I was working from home. Highly recommend!",
     name: "Mohammed Al Rashidi",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBwVQQOhqL0VpgR3iwA_cyRyl8DpBL9ZnCuN8pjS4N8LAhNpkNoVbjd8AbWEUpm5Dsa-737JAQCqyLZjDTmNk07BHWBZy6TT6OW1l_YDyYzrKazAeZGZGHijIpI-rRmiUGrpHHCccIQjKE0YZULEWObuyYaAZ4KRJS4qPZwqG3efoC0COSqSUThMhqmjVQKr4nGM_r1TQ3ge-qTmd2GM9_pV6QIMEcVBCDNHsTx9ispKFL25RbdRQclhNxiTvF5XuXgRbxylPlMDXE",
+    img: "/avatar-mohammed.webp",
   },
 ];
 
@@ -99,7 +99,7 @@ export default function Home() {
           <img
             alt="Car tyre repair service in Dubai"
             className="w-full h-full object-cover"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDusjsGph-KqCDtZ1-DLIteY2MNOwo8Lz4tLROCTTMYrogkcY87XvWR7S_YkYBQykjCD4gqKQv0-V-ka2Xq5g4USR3GEO2kqAhMSC3JrLrmUqyAMfIyVjwpBTO946bm3Leiza8ZVPY_hn4_aPw63ku9GAECYu7fxPuP9PCG3teJpBroHLxk_kRaE3mYGtlDLCgZx9yHXwjcUF6ou1gK1q_vKgUqLQW7vF_kpLkd1ZBdLrLmqsagqUWcYY9BEsyJFQQSxR23_mCEDV5P"
+            src="/home-hero.webp"
           />
         </div>
         <div className="relative z-20 w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto py-xl">
@@ -252,7 +252,7 @@ export default function Home() {
               <img
                 alt="Professional tyre technician working on a car in Dubai"
                 className="relative w-full rounded-xl shadow-2xl h-[450px] object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpmFO7TkX2E5Q9iB9VHEBWrDiXuNrdTcPBjpQmVFQUCWTQHYzd86OSRDg_uk60lzEJcXjJWZ1Rse9UF19WXc2lCiffpc2JYkitDJbbBXIB2Bed6PAH_625TsHof5QIApOiCOY3ah5Pbx7hjmuEfyI1_QIf1ioYhx_RSXpZA5ApCtN8b2UuqOKnIpekObcOI0KTthfLJGXe2uDELi5TS_wUHU8xfMCpa2p9NWoCMkl3GVd6Jd0gKGvWUZCx6foK6dntpr29SiQwcMcs"
+                src="/about-technician.webp"
               />
             </div>
           </div>
@@ -289,7 +289,7 @@ export default function Home() {
             className="w-full h-full bg-cover bg-center"
             style={{
               backgroundImage:
-                "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB3dklbZKG8Jl4xZ3KR-nRKqtjtnrqSAgECq2flww-u3FaOOtljRfi5X8Akxsg5vd9FnYF0bSYNeWhXa4rcxhE4LIr0R99B4QXSKEvDke3DCDmvayOaTBD_KtHQyZ2tPz8umCl-xG30D4OdpSY82gO8lrIWCzOVsGqEkBqmpaYWM96WoodNblkmN_AiK854WE5teYDJQLNzxD3rLJOzz2NP_8ddZOKQFoWLIZvArXI07BfstMJqaj0V-Jja5ptJEEkGfsf0WSDfxB97')",
+                "url('/coverage-bg.webp')",
             }}
           ></div>
         </div>
