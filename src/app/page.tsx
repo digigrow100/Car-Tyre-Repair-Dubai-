@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Faq from "@/components/Faq";
 
-const PHONE = "+97155 866 4226";
-const PHONE_RAW = "+971558664226";
-const WA = `https://wa.me/971558664226`;
+const PHONE = "+97155 297 8485";
+const PHONE_RAW = "+971552978485";
+const WA = `https://wa.me/971552978485`;
 
 const services = [
   {

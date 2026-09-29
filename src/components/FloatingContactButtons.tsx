@@ -1,7 +1,7 @@
 import FloatingReveal from "@/components/FloatingReveal";
 
-const PHONE_RAW = "+971558664226";
-const WA = "https://wa.me/971558664226";
+const PHONE_RAW = "+971552978485";
+const WA = "https://wa.me/971552978485";
 
 export default function FloatingContactButtons() {
   return (
