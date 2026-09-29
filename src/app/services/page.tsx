@@ -46,7 +46,7 @@ export default function ServicesPage() {
                   <span className="material-symbols-outlined">arrow_forward</span>
                 </a>
                 <a
-                  className="px-lg py-4 bg-[#F59E0B] text-white rounded-xl font-label-md text-label-md shadow-lg hover:translate-y-[-2px] transition-all flex items-center gap-sm"
+                  className="px-lg py-4 bg-[#D97721] hover:bg-[#B5601A] text-white rounded-xl font-label-md text-label-md shadow-lg hover:translate-y-[-2px] transition-all flex items-center gap-sm"
                   href={`tel:${PHONE_RAW}`}
                 >
                   <span className="material-symbols-outlined">emergency_home</span>
