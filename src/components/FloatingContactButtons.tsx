@@ -8,7 +8,7 @@ export default function FloatingContactButtons() {
     <FloatingReveal className="fixed bottom-6 right-4 md:right-6 flex flex-col gap-3 z-[100]">
       {/* WhatsApp button with pulse ring */}
       <div className="relative group">
-        <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-30 group-hover:opacity-0" />
+        <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-30 group-hover:opacity-0 pointer-events-none" />
         <a
           className="relative w-14 h-14 bg-[#25D366] text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-transform duration-200"
           href={`${WA}?text=${encodeURIComponent("Hi, I need tyre service in Dubai.")}`}
